@@ -1,0 +1,17 @@
+<div class="panel panel-default library-item">
+    <div class="panel-heading">
+        <h5 class="panel-title" >{{item.name}}</h5>
+    </div>
+    <div class="panel-body" style="max-height:100px">
+        <p>Address: {{item.address}}<br/>Phone: {{item.phone}}</p>
+    </div>
+    <div class="panel-footer">
+      Number of books:
+      <span class="text-left badge">
+        {{badge}}
+      </span>
+      <span class="pull-right">
+        {{yield}}
+      </span>
+    </div>
+</div>
