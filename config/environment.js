@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'new-libraryapp',
+    podModulePrefix: 'new-libraryapp/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
